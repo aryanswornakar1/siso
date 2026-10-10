@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#100d1b">
+<title>For My Siso & Captain 💜</title>
+<style>
+:root{--bg:#100d1b;--panel:#1b1629;--panel2:#211a32;--pink:#ff9dc7;--lilac:#c8a9ff;--text:#fff4fb;--muted:#c9bbd8;--line:#ffffff1c}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(ellipse at 50% -10%,#46264f 0%,#21172f 38%,var(--bg) 78%);color:var(--text);font-family:Georgia,'Times New Roman',serif;min-height:100vh;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.38;background-image:radial-gradient(#fff 1px,transparent 1.4px),radial-gradient(#d8b9ff 1px,transparent 1.4px);background-size:91px 91px,137px 137px;background-position:10px 15px,44px 60px;mask-image:linear-gradient(to bottom,#000,transparent 90%);z-index:0}
+button{font:700 14px Arial,sans-serif;cursor:pointer}
+main{position:relative;z-index:1;width:min(790px,92%);margin:auto;padding:24px 0 54px}
+.hero{text-align:center;min-height:82vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:38px 8px 52px}
+.eyebrow{font:700 10px/1.7 Arial,sans-serif;letter-spacing:3.5px;text-transform:uppercase;color:var(--lilac)}
+h1{font-size:clamp(3rem,10vw,6rem);line-height:.98;letter-spacing:-2px;margin:22px 0 20px;text-shadow:0 0 32px #ff9dc72b}
+h1 span{display:block;color:var(--pink);font-style:italic;font-weight:400}
+.subtitle{font:15px/1.9 Arial,sans-serif;color:var(--muted);max-width:510px;margin:0 auto 28px}
+.pill{border:1px solid #ffb6d74a;color:#ffe0ee;background:#ffffff08;padding:9px 14px;border-radius:999px;font:12px Arial,sans-serif;margin-bottom:20px}
+.primary{border:0;border-radius:999px;padding:15px 23px;color:#211229;background:linear-gradient(110deg,#ffb2d2,#cdb4ff);box-shadow:0 8px 28px #ff8fbe24;transition:transform .2s,box-shadow .2s}
+.primary:hover{transform:translateY(-2px);box-shadow:0 10px 34px #ff8fbe48}
+.secondary{border:1px solid var(--line);border-radius:999px;padding:12px 18px;color:var(--text);background:#ffffff08}
+.hint{font:11px Arial,sans-serif;color:#9d8bab;margin-top:14px}
+section.panel{border:1px solid var(--line);border-radius:25px;padding:clamp(20px,5vw,32px);margin:20px 0;background:linear-gradient(145deg,#ffffff0d,#ffffff04);box-shadow:0 18px 50px #00000021;backdrop-filter:blur(9px)}
+.panel h2{margin:0 0 16px;font-size:clamp(1.65rem,5vw,2.2rem);color:#ffc1dc;font-weight:400}
+.panel p{font:15px/1.95 Arial,sans-serif;color:#e9deef;margin:0}
+.salutation{color:var(--lilac);font-style:italic}
+.hidden{display:none!important}
+.reasons{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:20px}
+.reason{padding:17px;border-radius:17px;background:#ffffff07;border:1px solid #ffffff12;font:13px/1.75 Arial,sans-serif;color:#e9deef;min-height:126px}
+.reason .emoji{font-size:24px;display:block;margin-bottom:9px}
+.reason strong{display:block;color:#ffe0ee;font-size:14px;margin-bottom:5px}
+.quote{border-left:2px solid var(--pink);padding:4px 0 4px 18px;color:#f4dce9!important;font-style:italic}
+.final{text-align:center;padding:10px 5px 20px}
+.final .moon{font-size:34px;margin-bottom:8px}
+.final h2{font-size:clamp(2rem,7vw,3.2rem);color:#f8c5e0;margin:10px 0 16px}
+.final p{font:14px/1.9 Arial,sans-serif;color:var(--muted);margin:0 auto 22px;max-width:480px}
+footer{text-align:center;color:#9e8caf;font:11px/1.8 Arial,sans-serif;padding:25px 8px 0}
+.floating{position:fixed;bottom:-35px;z-index:5;pointer-events:none;animation:rise linear forwards;filter:drop-shadow(0 0 8px #ff8fbe44)}
+@keyframes rise{to{transform:translateY(-115vh) rotate(28deg);opacity:0}}
+.reveal{animation:appear .75s ease both}
+@keyframes appear{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:520px){.hero{min-height:78vh}.reasons{grid-template-columns:1fr}.reason{min-height:auto}main{width:91%}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition:none!important}}
+</style>
+</head>
+<body>
+<main>
+  <header class="hero">
+    <div class="eyebrow">a little corner of the universe, just for you</div>
+    <div class="pill">✦ made with love, for my favourite siso ✦</div>
+    <h1>For My <span>Siso & Captain</span> 💜</h1>
+    <p class="subtitle">No birthday, no special date, no big reason. Just a little reminder that some people make life brighter simply by being in it — and you're one of them.</p>
+    <button class="primary" id="openBtn">Open your little surprise ✨</button>
+    <div class="hint">best opened with a smile (but happy tears are allowed too)</div>
+  </header>
+
+  <section id="letter" class="panel hidden">
+    <div class="salutation">To my Siso, my Captain… 💌</div>
+    <h2>A little note from my heart</h2>
+    <p>
+      Hey, Siso. Hey, Captain. 💗<br><br>
+      I just wanted to make you a tiny corner of the internet that belongs to you — somewhere you can come back to whenever you need a reminder of how much you mean to me. You don't need to do something extraordinary to deserve appreciation. You don't need to be at your best, have the perfect words, or make everyone smile all the time. You deserve love and kindness just as you are.<br><br>
+      Thank you for being <b>you</b>. For the little things that make you different, for the moments that become memories, and for being someone I feel lucky to call my siso. I hope life brings you gentle days, beautiful surprises, people who understand your heart, and reasons to laugh until your cheeks hurt.<br><br>
+      If a day ever feels too heavy, please remember you don't have to carry everything alone. You can rest. You can have a bad day. You can take your time. You are still wonderful on the days when you don't feel wonderful at all.<br><br>
+      This page may be made of code, colours, and silly little hearts, but the thought behind it is real: <b>I'm grateful for you, I'm cheering for you, and I'm always wishing good things for you.</b><br><br>
+      Keep being your lovely, one-of-a-kind self, Captain. The world is better with you in it. 🫂💜
+    </p>
+  </section>
+
+  <section id="reasons" class="panel hidden">
+    <h2>Things I hope you never forget 🌙</h2>
+    <p>For the days when you need a little reminder…</p>
+    <div class="reasons">
+      <div class="reason"><span class="emoji">🌷</span><strong>You matter.</strong>Your presence makes a difference, even when you don't notice it.</div>
+      <div class="reason"><span class="emoji">🫶</span><strong>You deserve care, too.</strong>You don't always have to be the strong one for everyone else.</div>
+      <div class="reason"><span class="emoji">✨</span><strong>You're one of a kind.</strong>There's no one else who can be you in quite the same way.</div>
+      <div class="reason"><span class="emoji">🦋</span><strong>Your pace is okay.</strong>You can grow, change, pause, and begin again whenever you need.</div>
+      <div class="reason"><span class="emoji">☁️</span><strong>Rest is not failure.</strong>You deserve peaceful moments without having to earn them.</div>
+      <div class="reason"><span class="emoji">💜</span><strong>You are appreciated.</strong>Not just for what you do, but for the person you are.</div>
+    </div>
+  </section>
+
+  <section id="final" class="panel hidden final">
+    <div class="moon">🌙✨</div>
+    <h2>One last thing, Captain…</h2>
+    <p class="quote">If life were a sky full of stars, you'd be one of those little lights that makes someone stop, look up, and smile.</p>
+    <p>Thank you for being my special siso. I hope this tiny surprise made your day a little softer and your smile a little bigger. Whenever you need it, come back and open this page again. 💗</p>
+    <button class="primary" id="heartBtn">Send a little love into the universe 💞</button>
+    <p id="heartMessage" class="hidden" style="margin-top:18px;color:#ffc4dd">A whole sky of love, just for you. 💜💗✨</p>
+  </section>
+  <footer>Made especially for Siso & Captain · with love, always ♡</footer>
+</main>
+<script>
+const openBtn=document.getElementById('openBtn');
+const ids=['letter','reasons','final'];
+openBtn.addEventListener('click',()=>{
+  openBtn.disabled=true;
+  openBtn.textContent='Your surprise is opening… 💗';
+  ids.forEach((id,index)=>setTimeout(()=>{
+    const section=document.getElementById(id);
+    section.classList.remove('hidden');
+    section.classList.add('reveal');
+    if(index===0) setTimeout(()=>section.scrollIntoView({behavior:'smooth',block:'start'}),120);
+    if(index===ids.length-1){openBtn.textContent='Surprise opened with love 💜';}
+  },index*420));
+  hearts(16);
+});
+function hearts(count=22){
+  const symbols=['💗','💜','💖','💕','✨','🌸'];
+  for(let i=0;i<count;i++){
+    const el=document.createElement('span');
+    el.className='floating';
+    el.textContent=symbols[Math.floor(Math.random()*symbols.length)];
+    el.style.left=(Math.random()*100)+'vw';
+    el.style.fontSize=(15+Math.random()*17)+'px';
+    el.style.animationDuration=(4+Math.random()*4)+'s';
+    document.body.appendChild(el);
+    setTimeout(()=>el.remove(),8500);
+  }
+}
+document.getElementById('heartBtn').addEventListener('click',()=>{
+  hearts(36);
+  const msg=document.getElementById('heartMessage');
+  msg.classList.remove('hidden');msg.classList.add('reveal');
+});
+</script>
+</body>
+</html>
